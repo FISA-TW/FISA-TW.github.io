@@ -3,10 +3,10 @@ body {
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
+  font-weight: normal;
   font: 16px;
   line-height: 1.5;
-  font-family: "微軟正黑體","Titillium Web", sans-serif;
-	font-weight: normal;
 }
 
 /* General & 'Reset' Stuff */
@@ -38,6 +38,8 @@ li {
 
 header {
   background: rgba(0, 0, 0, 0.1);
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
+  font-weight: normal;
   width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
@@ -45,7 +47,7 @@ header {
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 48px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
@@ -60,7 +62,7 @@ header h1 {
 
 header h1:before {
   content: "./ ";
-  font-size: 48px;
+  font-size: 36px;
 }
 
 header h2 {
