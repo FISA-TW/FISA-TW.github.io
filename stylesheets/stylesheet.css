@@ -5,7 +5,8 @@ body {
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
+	font-weight: normal;
 }
 
 /* General & 'Reset' Stuff */
@@ -59,7 +60,7 @@ header h1 {
 
 header h1:before {
   content: "./ ";
-  font-size: 24px;
+  font-size: 48px;
 }
 
 header h2 {
