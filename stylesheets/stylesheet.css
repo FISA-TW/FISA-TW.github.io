@@ -64,7 +64,7 @@ header h1:before {
 }
 
 header h2 {
-  font-size: 18px;
+  font-size: 24px;
   font-family: "微軟正黑體","Titillium Web", sans-serif;
   font-weight: normal;
   font-weight: 300;
@@ -92,7 +92,7 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
   color: #b5e853;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -107,21 +107,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h2 {
+  padding-top: 65px;
   font-family: "微軟正黑體","Titillium Web", sans-serif;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #main_content h3 {
   font-family: "微軟正黑體","Titillium Web", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 #main_content h4 {
   font-family: "微軟正黑體","Titillium Web", sans-serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 #main_content h5 {
