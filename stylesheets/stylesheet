@@ -1,0 +1,71 @@
+body {
+  padding-top: 50px;
+  background: #151515 url("../images/bkg.png") 0 0;
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
+  font-weight: normal;
+  font: 16px;
+  color: #eaeaea;
+}
+a {
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+header {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-bottom: 1px dashed #b5e853;
+  padding: 20px 0;
+}
+header h1 {
+  font-size: 48px;
+  line-height: 1.5;
+  margin: 0 0 0 -40px;
+  font-weight: bold;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+  letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
+}
+header h1:before {
+  content: "./ ";
+  font-size: 36px;
+}
+header h2 {
+  font-size: 24px;
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
+  font-weight: normal;
+  font-weight: 300;
+  color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
+  color: #b5e853;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+#padding-top h1{
+  padding-top: 65px;
+  font-family: "微軟正黑體","Titillium Web", sans-serif;
+  font-weight: normal;
+}
+ul li {
+  list-style: none;
+}
+
+ul li:before {
+  content: ">>";
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 13px;
+  color: #b5e853;
+  margin-left: -37px;
+  margin-right: 21px;
+  line-height: 16px;
+}
