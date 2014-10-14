@@ -26,14 +26,15 @@ header h1 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
-  letter-spacing: -1px;
+  letter-spacing: 17px;
   -webkit-font-smoothing: antialiased;
 }
 header h1:before {
-  content: "  ./ ";
+  content: "./";
   font-size: 36px;
 }
 header h2 {
+  font-variant: small-caps;
   font-size: 24px;
   font-family: "微軟正黑體","Titillium Web", sans-serif;
   font-weight: normal;
@@ -54,13 +55,18 @@ h1, h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
-#padding-top h1{
+section > h1 {
   padding-top: 65px;
   font-family: "微軟正黑體","Titillium Web", sans-serif;
   font-weight: normal;
 }
+
 ul li {
   list-style: none;
+}
+.nav > li:before {
+  content: "";
+  all: inherit;
 }
 
 ul li:before {
