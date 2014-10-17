@@ -65,7 +65,7 @@ ul li {
   list-style: none;
 }
 
-ul:not(.nav) li:before {
+ul:not(.nav) > li:before {
   content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
